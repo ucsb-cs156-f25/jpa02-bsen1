@@ -39,12 +39,12 @@ public class Developer {
     
     public static Team getTeam() {
         Team team = new Team("f25-05");
-        team.addMember("Jasmine");
-        team.addMember("Kennedy");
-        team.addMember("Brian S.");
-        team.addMember("Melvin");
-        team.addMember("Hechenjin");
-        team.addMember("Mon");
+        team.addMember("JASMINE");
+        team.addMember("KENNEDY");
+        team.addMember("BRIAN PATRICK");
+        team.addMember("MELVIN ANTHONY");
+        team.addMember("HECHENJIN");
+        team.addMember("MON RAPHAEL");
         return team;
     }
 }
