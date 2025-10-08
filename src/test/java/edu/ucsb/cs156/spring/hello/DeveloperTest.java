@@ -22,12 +22,14 @@ public class DeveloperTest {
 
     @Test
     public void getName_returns_correct_name() {
-        // TODO: Replace Chris G. with your name as shown on
-        // <https://bit.ly/cs156-f25-teams>
         assertEquals("Brian S.", Developer.getName());
     }
 
     // TODO: Add additional tests as needed to get to 100% jacoco line coverage, and
     // 100% mutation coverage (all mutants timed out or killed)
+    @Test
+    public void getGithubId_returns_correct_githubId() {
+        assertEquals("bsen1", Developer.getGithubId());
+    }
 
 }
